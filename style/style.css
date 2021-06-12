@@ -1,0 +1,36 @@
+.header .wrapper-top {
+    background: #20242D;
+}
+.header .address {
+    color: #FFFFFF;
+}
+
+.header .contacts a {
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 14px;
+letter-spacing: 0em;
+text-align: left;
+color: #FFFFFF;
+text-decoration: none;
+}
+
+.header .wrapper-bot {
+    background: #FFFFFF;
+}
+
+.header .navigation a {
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 17px;
+letter-spacing: 0em;
+text-align: left;
+color: #20242D;
+}
+
+.header .navigation .active {
+    color: #FF7129;
+    
+}
