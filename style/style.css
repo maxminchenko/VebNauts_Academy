@@ -34,3 +34,44 @@ color: #20242D;
     color: #FF7129;
     
 }
+
+.start-screen {
+    background: bisque;
+}
+
+.start-screen .main-title{
+font-size: 92px;
+font-style: normal;
+font-weight: 700;
+line-height: 111px;
+letter-spacing: 0em;
+text-align: center;
+color: #FFFFFF;
+
+}
+
+.start-screen .slogan {
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: center;
+color: #FFFFFF;
+
+}
+
+.start-screen .btn {
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 17px;
+letter-spacing: 0em;
+text-align: center;
+color: #FFFFFF;
+background: #FF7129;
+box-shadow: 0px 4px 28px 0px ;
+}
+.start-screen .btn-scroll {
+    background: rgba(123, 126, 133, 0.4);
+}
