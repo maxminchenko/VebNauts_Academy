@@ -13,17 +13,28 @@ ul {
   margin: 0;
   list-style: none;
 }
-.container {
-  width: 50;
-  height: 50;
+
+a {
+  text-decoration: none;
 }
 
+.container {
+  width: auto;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.wrapper-top {
+  background: #20242d;
+}
 .header .wrapper-top {
   background: #20242d;
 }
 .header .wrapper-top .container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .header .contacts {
@@ -36,10 +47,26 @@ ul {
 }
 
 .header .contacts li:last-child {
+  margin-right: 0;
 }
 
 .header .address {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
   color: #ffffff;
+}
+
+.header .contacts {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header .contacts li {
+  margin-right: 56px;
 }
 
 .header .contacts a {
@@ -53,8 +80,35 @@ ul {
   text-decoration: none;
 }
 
+.foto3-left {
+  position: absolute;
+  width: 1019px;
+  height: 532px;
+  left: -880px;
+  top: 292px;
+  background: url(projekty);
+}
+
+.foto3 {
+  position: absolute;
+  width: 1019px;
+  height: 532px;
+  left: 299px;
+  top: 300px;
+  background: url(projekty);
+}
+
+.wrapper-bot {
+  background: black;
+}
+
 .header .wrapper-bot {
   background: #ffffff;
+  padding-top: 20px;
+  padding-bottom: 11px;
+}
+
+.header .wrapper-bot .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -64,10 +118,10 @@ ul {
   display: flex;
   align-items: center;
 }
-.header .navigation ul li {
+.header .navigation li {
   margin-right: 56px;
 }
-.header .navigation ul li:last-child {
+.header .navigation li:last-child {
   margin-right: 0px;
 }
 
@@ -95,6 +149,17 @@ ul {
   background-position: 50%;
 }
 
+.main-titlee {
+  font-size: 92px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 111px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
 .start-screen .main-title {
   font-size: 92px;
   font-style: normal;
@@ -104,6 +169,7 @@ ul {
   text-align: center;
   color: #ffffff;
   margin-bottom: 16px;
+  margin-top: 0;
 }
 
 .start-screen .slogan {
@@ -118,6 +184,18 @@ ul {
   margin-left: auto;
   margin-left: auto;
   margin-bottom: 59px;
+}
+
+.btn-btn-dark {
+  color: #ffffff;
+  width: 187px;
+  height: 49px;
+  left: 0px;
+  top: 0px;
+  background: black;
+  border: 1px solid #ff7129;
+  box-sizing: border-box;
+  filter: ;
 }
 
 .start-screen .btn {
